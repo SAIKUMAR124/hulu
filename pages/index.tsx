@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Header from "../components/Header";
+import Nav from "../components/Nav";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <title>Hulu</title>
       </Head>
       <Header />
+      <Nav/>
     </div>
   );
 };
